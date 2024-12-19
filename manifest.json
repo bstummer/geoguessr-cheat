@@ -1,0 +1,15 @@
+{
+    "name": "GeoGuesser Cheat",
+    "description": "Logs a link to the location in the console. Click on service worker to start.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "worker.js"
+    },
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "permissions": [
+      "webRequest"
+    ]
+  }
